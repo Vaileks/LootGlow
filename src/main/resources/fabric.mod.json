@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lootglow",
+  "version": "1.0.0",
+  "name": "LootGlow",
+  "description": "Client-side outlines for dropped RunesLegendary relics, CSI epic items, enchanted golden apples, totems and all maces.",
+  "authors": [
+    "Vaileks"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.bloodstone.lootglow.LootGlowClient"
+    ]
+  },
+  "mixins": [
+    "lootglow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "=1.21.11",
+    "java": ">=21"
+  },
+  "icon": "assets/lootglow/icon.png"
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "ru.bloodstone.lootglow.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "EntityMixin",
+    "ItemEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

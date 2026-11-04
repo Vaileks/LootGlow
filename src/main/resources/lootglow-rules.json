@@ -1,0 +1,387 @@
+{
+  "models": {
+    "bloodstone:tools/admin_sword/default/admin_sword": "LEGENDARY",
+    "bloodstone:tools/bloodsword/default/block": "LEGENDARY",
+    "bloodstone:tools/bloodsword/default/harpoon": "LEGENDARY",
+    "bloodstone:tools/bloodsword/default/mace": "LEGENDARY",
+    "bloodstone:tools/bloodsword/default/sword": "LEGENDARY",
+    "bloodstone:tools/dragon_katana/default/dragon_katana": "LEGENDARY",
+    "bloodstone:tools/frost_sword/default/frost_sword": "LEGENDARY",
+    "bloodstone:tools/gamble_sword/default/gamble_sword": "LEGENDARY",
+    "bloodstone:tools/gamble_sword/gold/gamble_sword": "LEGENDARY",
+    "bloodstone:tools/glove/default/stage_0/glove": "LEGENDARY",
+    "bloodstone:tools/glove/default/stage_1/glove": "LEGENDARY",
+    "bloodstone:tools/glove/default/stage_2/glove": "LEGENDARY",
+    "bloodstone:tools/glove/default/stage_3/glove": "LEGENDARY",
+    "bloodstone:tools/glove/default/stage_4/glove": "LEGENDARY",
+    "bloodstone:tools/judge_sword/default/judge_sword": "LEGENDARY",
+    "bloodstone:tools/laser/default/laser": "LEGENDARY",
+    "bloodstone:tools/lite_mace/default/lite_mace": "LEGENDARY",
+    "bloodstone:tools/mirror_blade/default/mirror_blade": "LEGENDARY",
+    "bloodstone:tools/netherite_shield/default/netherite_shield": "LEGENDARY",
+    "bloodstone:tools/orbital_nuke/default/orbital_nuke": "LEGENDARY",
+    "bloodstone:tools/rail_gun/default/rail_gun": "LEGENDARY",
+    "bloodstone:tools/reaper_scythe/death/reaper_scythe": "LEGENDARY",
+    "bloodstone:tools/reaper_scythe/default/reaper_scythe": "LEGENDARY",
+    "bloodstone:tools/spider_sword/default/spider_sword": "LEGENDARY",
+    "bloodstone:tools/sword_of_nature/default/sword_of_nature": "LEGENDARY",
+    "bloodstone:tools/time_bow/default/time_bow": "LEGENDARY",
+    "bloodstone:tools/unicorn_horn/default/unicorn_horn": "LEGENDARY",
+    "civilization:tools/artemis_bow/default": "LEGENDARY",
+    "civilization:tools/cloud_sword": "LEGENDARY",
+    "civilization:tools/emerald_sword": "LEGENDARY",
+    "civilization:tools/excalibur_sword/normal": "LEGENDARY",
+    "civilization:tools/hypnosis_staff": "LEGENDARY",
+    "civilization:tools/midas_sword": "LEGENDARY",
+    "civilization:tools/mjolnir/normal": "LEGENDARY",
+    "civilization:tools/poseidon_trident/normal/default": "LEGENDARY",
+    "civilization:tools/ravager_horn": "LEGENDARY",
+    "civilization:tools/shadow_blade/normal": "LEGENDARY",
+    "civilization:tools/shrink_ray/normal/default": "LEGENDARY",
+    "civilization:tools/sonic_crossbow/default": "LEGENDARY",
+    "civilization:tools/villager_wand": "LEGENDARY",
+    "fullleg_dark:fx/wand": "LEGENDARY",
+    "modelengine:blood_ballista_pack_v2/root": "EPIC"
+  },
+  "modelPrefixes": {
+    "bloodstone:tools/admin_sword/": "LEGENDARY",
+    "bloodstone:tools/artemis_bow/": "LEGENDARY",
+    "bloodstone:tools/bloodsword/": "LEGENDARY",
+    "bloodstone:tools/cloud_sword/": "LEGENDARY",
+    "bloodstone:tools/dragon_katana/": "LEGENDARY",
+    "bloodstone:tools/emerald_sword/": "LEGENDARY",
+    "bloodstone:tools/excalibur_sword/": "LEGENDARY",
+    "bloodstone:tools/frost_sword/": "LEGENDARY",
+    "bloodstone:tools/gamble_sword/": "LEGENDARY",
+    "bloodstone:tools/glove/": "LEGENDARY",
+    "bloodstone:tools/hypnosis_staff/": "LEGENDARY",
+    "bloodstone:tools/judge_sword/": "LEGENDARY",
+    "bloodstone:tools/laser/": "LEGENDARY",
+    "bloodstone:tools/lite_mace/": "LEGENDARY",
+    "bloodstone:tools/midas_sword/": "LEGENDARY",
+    "bloodstone:tools/mirror_blade/": "LEGENDARY",
+    "bloodstone:tools/mjolnir/": "LEGENDARY",
+    "bloodstone:tools/netherite_shield/": "LEGENDARY",
+    "bloodstone:tools/orbital_nuke/": "LEGENDARY",
+    "bloodstone:tools/poseidon_trident/": "LEGENDARY",
+    "bloodstone:tools/rail_gun/": "LEGENDARY",
+    "bloodstone:tools/ravager_horn/": "LEGENDARY",
+    "bloodstone:tools/reaper_scythe/": "LEGENDARY",
+    "bloodstone:tools/shadow_blade/": "LEGENDARY",
+    "bloodstone:tools/shrink_ray/": "LEGENDARY",
+    "bloodstone:tools/sonic_crossbow/": "LEGENDARY",
+    "bloodstone:tools/spider_sword/": "LEGENDARY",
+    "bloodstone:tools/sword_of_nature/": "LEGENDARY",
+    "bloodstone:tools/time_bow/": "LEGENDARY",
+    "bloodstone:tools/unicorn_horn/": "LEGENDARY",
+    "bloodstone:tools/villager_wand/": "LEGENDARY",
+    "civilization:tools/admin_sword/": "LEGENDARY",
+    "civilization:tools/artemis_bow/": "LEGENDARY",
+    "civilization:tools/bloodsword/": "LEGENDARY",
+    "civilization:tools/cloud_sword/": "LEGENDARY",
+    "civilization:tools/dragon_katana/": "LEGENDARY",
+    "civilization:tools/emerald_sword/": "LEGENDARY",
+    "civilization:tools/excalibur_sword/": "LEGENDARY",
+    "civilization:tools/frost_sword/": "LEGENDARY",
+    "civilization:tools/gamble_sword/": "LEGENDARY",
+    "civilization:tools/glove/": "LEGENDARY",
+    "civilization:tools/hypnosis_staff/": "LEGENDARY",
+    "civilization:tools/judge_sword/": "LEGENDARY",
+    "civilization:tools/laser/": "LEGENDARY",
+    "civilization:tools/lite_mace/": "LEGENDARY",
+    "civilization:tools/midas_sword/": "LEGENDARY",
+    "civilization:tools/mirror_blade/": "LEGENDARY",
+    "civilization:tools/mjolnir/": "LEGENDARY",
+    "civilization:tools/netherite_shield/": "LEGENDARY",
+    "civilization:tools/orbital_nuke/": "LEGENDARY",
+    "civilization:tools/poseidon_trident/": "LEGENDARY",
+    "civilization:tools/rail_gun/": "LEGENDARY",
+    "civilization:tools/ravager_horn/": "LEGENDARY",
+    "civilization:tools/reaper_scythe/": "LEGENDARY",
+    "civilization:tools/shadow_blade/": "LEGENDARY",
+    "civilization:tools/shrink_ray/": "LEGENDARY",
+    "civilization:tools/sonic_crossbow/": "LEGENDARY",
+    "civilization:tools/spider_sword/": "LEGENDARY",
+    "civilization:tools/sword_of_nature/": "LEGENDARY",
+    "civilization:tools/time_bow/": "LEGENDARY",
+    "civilization:tools/unicorn_horn/": "LEGENDARY",
+    "civilization:tools/villager_wand/": "LEGENDARY"
+  },
+  "customModelData": [
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        99
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI MidasSword"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        4444
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI ArtemisBowDisabled"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        4444
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI ArtemisBowEnabled"
+    },
+    {
+      "item": "minecraft:iron_hoe",
+      "values": [
+        5555
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI ReaperScythe"
+    },
+    {
+      "item": "minecraft:crossbow",
+      "values": [
+        1488
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI SonicCrossbow"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        2017
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI Excalibur"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        2024
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI DragonKatana"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        1700
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI EmeraldBlade"
+    },
+    {
+      "item": "minecraft:stone_axe",
+      "values": [
+        2222
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI Mjolnir"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        1002
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI ShadowBlade"
+    },
+    {
+      "item": "minecraft:netherite_sword",
+      "values": [
+        10000
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI CloudSword"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        7
+      ],
+      "kind": "EPIC",
+      "label": "CSI Aeglos"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe",
+      "values": [
+        1
+      ],
+      "kind": "EPIC",
+      "label": "CSI WarPickaxe"
+    },
+    {
+      "item": "minecraft:crossbow",
+      "values": [
+        5
+      ],
+      "kind": "EPIC",
+      "label": "CSI ArmorDetonator"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        8
+      ],
+      "kind": "EPIC",
+      "label": "CSI CrimsonChainSword"
+    },
+    {
+      "item": "minecraft:crossbow",
+      "values": [
+        11
+      ],
+      "kind": "EPIC",
+      "label": "CSI Harpoon"
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "values": [
+        96
+      ],
+      "kind": "EPIC",
+      "label": "CSI TotemST"
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "values": [
+        103
+      ],
+      "kind": "EPIC",
+      "label": "CSI TotemSPEED"
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "values": [
+        600
+      ],
+      "kind": "EPIC",
+      "label": "CSI TotemVILLAGER"
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "values": [
+        666
+      ],
+      "kind": "EPIC",
+      "label": "CSI TotemSCULK"
+    },
+    {
+      "item": "minecraft:carved_pumpkin",
+      "values": [
+        777
+      ],
+      "kind": "EPIC",
+      "label": "CSI Corona"
+    },
+    {
+      "item": "minecraft:stone_shovel",
+      "values": [
+        1000
+      ],
+      "kind": "EPIC",
+      "label": "CSI DripShovel"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        1001,
+        10000
+      ],
+      "kind": "EPIC",
+      "label": "CSI Volnorez"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "values": [
+        1000,
+        10001
+      ],
+      "kind": "EPIC",
+      "label": "CSI Lavorez"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        10002
+      ],
+      "kind": "EPIC",
+      "label": "CSI PesnVisot"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        2
+      ],
+      "kind": "EPIC",
+      "label": "CSI EnderBowArrow"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        2
+      ],
+      "kind": "EPIC",
+      "label": "CSI EnderBowPearl"
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "values": [
+        7
+      ],
+      "kind": "EPIC",
+      "label": "CSI EvokerStaff"
+    },
+    {
+      "item": "minecraft:sniffer_egg",
+      "values": [
+        1
+      ],
+      "kind": "EPIC",
+      "label": "CSI GeraldSniffer"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "values": [
+        1,
+        24001
+      ],
+      "kind": "LEGENDARY",
+      "label": "RunesLegendary Elder Wand"
+    },
+    {
+      "item": "minecraft:stick",
+      "values": [
+        24001
+      ],
+      "kind": "LEGENDARY",
+      "label": "RunesLegendary prior Elder Wand"
+    },
+    {
+      "item": "minecraft:bow",
+      "values": [
+        5555
+      ],
+      "kind": "LEGENDARY",
+      "label": "CSI TimeBow"
+    },
+    {
+      "item": "minecraft:netherite_sword",
+      "values": [
+        7492
+      ],
+      "kind": "LEGENDARY",
+      "label": "RunesLegendary CloudSword"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "values": [
+        5
+      ],
+      "kind": "LEGENDARY",
+      "label": "RunesLegendary End Staff"
+    }
+  ]
+}

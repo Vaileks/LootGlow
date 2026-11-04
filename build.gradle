@@ -1,0 +1,24 @@
+plugins {
+    id 'fabric-loom' version '1.14.10'
+}
+version = '1.0.0'
+group = 'ru.bloodstone'
+base { archivesName = 'LootGlow' }
+repositories { mavenCentral() }
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21.11'
+    mappings 'net.fabricmc:yarn:1.21.11+build.6:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.19.5'
+}
+java { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+tasks.named('remapJar') { archiveFileName = 'LootGlow.jar' }
+tasks.register('matcherTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.bloodstone.lootglow.LootRulesTest'
+    jvmArgs '-ea'
+}
+// Verification is a standalone main so no test library is required by the mod or its build.
+tasks.named('test') { enabled = false }
+tasks.named('check') { dependsOn 'matcherTest' }

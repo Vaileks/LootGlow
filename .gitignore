@@ -1,0 +1,13 @@
+build/
+dist/
+target/
+libraries/
+lib/
+.gradle/
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+openai-api-key.txt
